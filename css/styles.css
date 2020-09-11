@@ -1,0 +1,116 @@
+.top-container{
+  background-color: #a6dcef;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-container{
+  background-color: #a6dcef;
+  padding: 50px 0 20px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+h1{
+  font-size: 5.625rem;
+  color: #fe7171;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #fe7171;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.skill-row{
+  margin:50px auto 100px auto;
+  width:50%;
+  text-align: left;
+}
+.programming{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.web{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+.contact-message{
+  width: 40%;
+  margin:40px auto 60px;
+}
+
+.btn {
+	box-shadow: -1px -1px 1px 0 #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #2598c2 100%);
+	background-color:#33bdef;
+	border-radius:9px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 13px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #2598c2 5%, #33bdef 100%);
+	background-color:#2598c2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
